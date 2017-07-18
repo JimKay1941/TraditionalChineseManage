@@ -291,7 +291,7 @@ namespace TraditionalChineseManage
 			if (txtCji1.Text.Length < 1)
 				return;
 
-			IList<string> fromCjis;
+			IList<char> fromCjis;
 
 			var success = Traditional.TryGetCjiChar(txtCji1.Text, out fromCjis);
 
