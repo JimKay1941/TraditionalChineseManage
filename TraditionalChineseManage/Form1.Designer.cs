@@ -713,6 +713,7 @@
             // 
             this.listChars3.AllowDrop = true;
             this.listChars3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listChars3.HideSelection = false;
             this.listChars3.Location = new System.Drawing.Point(1019, 61);
             this.listChars3.Name = "listChars3";
             this.listChars3.Size = new System.Drawing.Size(245, 454);
@@ -723,7 +724,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1276, 707);
+            this.ClientSize = new System.Drawing.Size(1388, 707);
             this.Controls.Add(this.listChars3);
             this.Controls.Add(this.txtSimplified);
             this.Controls.Add(this.button1);
